@@ -4,7 +4,7 @@ ul {
     padding: 0;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: white;
 }
@@ -137,6 +137,9 @@ body .signup {
 
 .subtext {
     text-align: center;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 10px;
 }
 
 .quote #quoteby {
@@ -211,4 +214,12 @@ body .signup {
     flex-direction: column;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+.rcorners img {
+    object-fit: cover;
 }
