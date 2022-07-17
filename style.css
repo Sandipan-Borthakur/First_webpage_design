@@ -28,7 +28,7 @@ body {
 
 .subheaders ul {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 #headerlogo {
@@ -87,15 +87,41 @@ img {
     padding: 10px;
 }
 
-.rcorners {
+.srn,.exp,.cn,.sq {
     border-radius: 25px;
-    border: 2px solid #3882F6;
+    border: 4px solid  #0c2142;
     padding: 10px; 
     width: 200px;
-    height: 150px;  
+    height: 150px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
   }
+.srn  {
+    background-image: url("./images/Southern-ring-nebula.jpg"); 
+     
+}
 
-.rcorners1 {
+.exp  {
+    background-image: url("./images/Wasp-96-b.jpg");  
+}
+
+.cn  {
+    background-image: url("./images/Carina-nebula.jpg");  
+}
+
+.sq  {
+    background-image: url("./images/Stephan\'s\ quintet.jpg");  
+}
+
+
+.srn:hover, .exp:hover, .cn:hover, .sq:hover {
+    border: 4px solid  #3882F6;
+    transition: 0.4s;
+}
+
+.signupbox {
     border-radius: 10px;
     background: #3882f6;
     padding: 20px; 
@@ -170,14 +196,14 @@ body .signup {
     background-color: white;
     color: #3882f6;
     border-color: white;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 
 #firstbutton:active {
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
-    transition:0.2s;
+    transition: 0.4s;
 }
 
 #secondbutton {
@@ -225,14 +251,3 @@ body .signup {
     padding-top: 50px;
 }
 
-
-.box img {
-    width: 100%;
-    height: 100%;
-}
-.rcorners img {
-    object-fit: cover;
-}
-.box {
-    background-color: black;
-}
