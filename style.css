@@ -10,7 +10,7 @@ ul {
 }
 
 body {
-    height:140vh;
+    height:160vh;
     margin: 0;
     overflow-y: scroll;
     font-family: Roboto, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .subheaders ul {
@@ -39,7 +39,6 @@ body {
 .about {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -55,10 +54,13 @@ body {
 .upper {
     background-color: #1F2937;
     color: white;
-    height: 300px;
+    height: 380px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 20px;
 }
 
 .information {
@@ -88,7 +90,7 @@ img {
 .rcorners {
     border-radius: 25px;
     border: 2px solid #3882F6;
-    padding: 20px; 
+    padding: 10px; 
     width: 200px;
     height: 150px;  
   }
@@ -109,6 +111,12 @@ img {
     justify-content: center;
     align-items: center;
     padding: 60px;
+}
+
+.quotesubclass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .signup {
@@ -143,7 +151,6 @@ body .signup {
 }
 
 .quote #quoteby {
-    align-self: flex-end;
     color: #1F2937;
     font-weight: bold;
 }
@@ -212,9 +219,12 @@ body .signup {
 .uppertextcontent {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
+    width: 60%;
+    padding-top: 50px;
 }
+
 
 .box img {
     width: 100%;
@@ -222,4 +232,7 @@ body .signup {
 }
 .rcorners img {
     object-fit: cover;
+}
+.box {
+    background-color: black;
 }
